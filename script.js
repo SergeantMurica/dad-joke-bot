@@ -175,6 +175,7 @@ function appendUserMessage() {
     messageDiv.append(contentDiv, avatar);
     chatContent.appendChild(messageDiv);
 }
+
 appendBotMessage(
     "Hello! I am the Dad Joke Bot, here to make you laugh. Let me think of a joke.",
 );
